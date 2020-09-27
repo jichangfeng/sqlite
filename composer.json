@@ -1,0 +1,16 @@
+{
+    "name"  : "jichangfeng/sqlite",
+    "type"  : "library",
+    "keywords": ["sqlite", "pdo", "pdo_sqlite"],
+    "homepage": "http://www.workerman.net",
+    "license" : "MIT",
+    "description": "Long-living SQLite connection for daemon.",
+    "require": {
+        "php": ">=5.3",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "autoload": {
+        "psr-4": {"Workerman\\SQLite\\": "./src"}
+    }
+}
